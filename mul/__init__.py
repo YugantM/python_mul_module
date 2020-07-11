@@ -1,1 +1,1 @@
-import mul
+"The mul module"

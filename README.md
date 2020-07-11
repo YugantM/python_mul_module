@@ -1,2 +1,1 @@
-# python_mul_module
- 
+# python-mul

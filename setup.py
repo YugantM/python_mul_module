@@ -4,11 +4,14 @@ setup(
   packages = ['mul'],   
   version = '1.0',      
   license='MIT',        
-  description = 'This package returns multiplication of two integers.',   
-  url = 'https://github.com/YugantM/python_mul_module',   
-  download_url = 'https://github.com/YugantM/python_mul_module.git',  
-  
-  keywords = ['multiplication', 'calculation'],  
+  description = 'This package returns addition of two integers.',   
+  url = 'https://github.com/yugantm/python_mul_module',   
+  download_url = 'https://github.com/yugantm/python_mul_module.git',
+  entry_points = {
+              'console_scripts': ['mul = mul.__main__:main',],
+              },
+  scripts=['scripts/mul'],  
+  keywords = ['addition', 'calculation'],  
   
   classifiers=[
     'Development Status :: 3 - Alpha',      

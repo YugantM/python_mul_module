@@ -1,0 +1,5 @@
+#! /usr/bin/python
+
+from mul import mul
+
+mul.main()
