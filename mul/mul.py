@@ -5,7 +5,7 @@ def mul(x,y):
 
 def main():
     if len(sys.argv) == 3:
-        print(add(int(sys.argv[1]),int(sys.argv[2])))
+        print(mul(int(sys.argv[1]),int(sys.argv[2])))
         
     else:
         print("ERROR:",str(len(sys.argv)-1)," arguments given instead of 2")

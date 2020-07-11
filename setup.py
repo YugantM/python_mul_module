@@ -11,7 +11,7 @@ setup(
               'console_scripts': ['mul = mul.__main__:main',],
               },
   scripts=['scripts/mul'],  
-  keywords = ['addition', 'calculation'],  
+  keywords = ['multiplication', 'calculation'],  
   
   classifiers=[
     'Development Status :: 3 - Alpha',      
